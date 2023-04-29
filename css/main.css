@@ -1163,8 +1163,7 @@ main {
 }
 @media (max-width: 991px) {
   .video-link.page-video {
-    padding: 0;
-    height: 300px;
+    padding-bottom: 46.8152866242%;
   }
 }
 .video-link:after {
