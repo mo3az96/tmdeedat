@@ -802,6 +802,8 @@ img {
   margin: 0 0 40px;
   position: relative;
   line-height: 1.2222;
+  width: 100%;
+  text-align: center;
 }
 .contact-method .contact-title:after {
   content: "";
@@ -1149,6 +1151,25 @@ main {
   }
 }
 
+.page-desc {
+  font-size: 18px;
+  font-weight: 300;
+  color: #6b6b6b;
+  line-height: 1.38888;
+  margin: 0 0 60px;
+}
+@media (max-width: 991px) {
+  .page-desc {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .page-desc {
+    text-align: center;
+  }
+}
+
 .about-cover {
   padding-bottom: 60px;
 }
@@ -1487,6 +1508,80 @@ main {
     width: 100%;
     margin: 9px 0;
   }
+}
+
+.product-item {
+  background-color: rgba(248, 248, 248, 0.81);
+  border: 1px solid #ebebeb;
+  border-radius: 20px;
+  padding: 31px 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.product-item:last-of-type {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .product-item {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+.product-item .product-img {
+  width: 336px;
+  height: 181px;
+  box-shadow: 0px 0px 60px rgba(138, 136, 136, 0.0784313725);
+  border-radius: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-item .product-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 991px) {
+  .product-item .product-img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 53.869047619%;
+  }
+}
+.product-item .product-text {
+  -webkit-padding-start: 50px;
+          padding-inline-start: 50px;
+  -webkit-padding-end: 26px;
+          padding-inline-end: 26px;
+}
+@media (max-width: 991px) {
+  .product-item .product-text {
+    padding: 20px 0 0;
+  }
+}
+.product-item .product-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333743;
+  line-height: 1.2222;
+  margin: 0 0 29px;
+}
+@media (max-width: 991px) {
+  .product-item .product-name {
+    margin-bottom: 20px;
+  }
+}
+.product-item .product-desc {
+  font-size: 14px;
+  color: #333743;
+  font-weight: 300;
+  line-height: 1.7857;
+  margin: 0;
 }
 
 footer {
