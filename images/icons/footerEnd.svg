@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101"
+    height="253" viewBox="0 0 101 253">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_27323" data-name="Rectangle 27323" width="101" height="253"
+                transform="translate(0 3264)" fill="#fff" stroke="#707070" stroke-width="1" />
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_2267" data-name="Mask Group 2267" transform="translate(0 -3264)"
+        clip-path="url(#clip-path)">
+        <path id="Polygon_18" data-name="Polygon 18"
+            d="M64.534,15.989a11,11,0,0,1,18.931,0l54.7,92.407A11,11,0,0,1,128.7,125H19.3a11,11,0,0,1-9.466-16.6Z"
+            transform="translate(71.14 3506.565) rotate(176)" fill="#fff" opacity="0.2" />
+        <path id="Polygon_19" data-name="Polygon 19"
+            d="M11.437,4.21a3,3,0,0,1,5.125,0l8.662,14.23A3,3,0,0,1,22.662,23H5.338a3,3,0,0,1-2.563-4.56Z"
+            transform="translate(71.139 3359.875) rotate(176)" fill="#fff" opacity="0.1" />
+        <path id="Polygon_20" data-name="Polygon 20"
+            d="M11.437,4.21a3,3,0,0,1,5.125,0l8.662,14.23A3,3,0,0,1,22.662,23H5.338a3,3,0,0,1-2.563-4.56Z"
+            transform="matrix(-0.259, -0.966, 0.966, -0.259, 78.423, 3420.94)" fill="#fff"
+            opacity="0.1" />
+        <path id="Polygon_21" data-name="Polygon 21"
+            d="M11.437,4.21a3,3,0,0,1,5.125,0l8.662,14.23A3,3,0,0,1,22.662,23H5.338a3,3,0,0,1-2.563-4.56Z"
+            transform="matrix(-0.259, -0.966, 0.966, -0.259, 40.423, 3484.94)" fill="#fff"
+            opacity="0.1" />
+        <path id="Polygon_22" data-name="Polygon 22"
+            d="M11.437,4.21a3,3,0,0,1,5.125,0l8.662,14.23A3,3,0,0,1,22.662,23H5.338a3,3,0,0,1-2.563-4.56Z"
+            transform="translate(19.907 3263.941)" fill="#fff" opacity="0.07" />
+    </g>
+</svg>

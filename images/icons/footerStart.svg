@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36"
+    height="87" viewBox="0 0 36 87">
+    <defs>
+        <clipPath id="clip-path">
+            <rect id="Rectangle_27324" data-name="Rectangle 27324" width="36" height="87"
+                transform="translate(1330 3410)" fill="#fff" stroke="#707070" stroke-width="1" />
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_2268" data-name="Mask Group 2268" transform="translate(-1330 -3410)"
+        clip-path="url(#clip-path)">
+        <path id="Polygon_17" data-name="Polygon 17"
+            d="M59.783,18.316a11,11,0,0,1,19.434,0l51.212,96.529A11,11,0,0,1,120.712,131H18.288a11,11,0,0,1-9.717-16.155Z"
+            transform="translate(1323 3357.889)" fill="#fff" opacity="0.2" />
+    </g>
+</svg>
