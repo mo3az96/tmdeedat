@@ -1553,6 +1553,22 @@ main {
     padding-bottom: 53.869047619%;
   }
 }
+.product-item .product-cat {
+  position: absolute;
+  bottom: 0;
+  inset-inline-end: 0;
+  min-width: 179px;
+  padding: 0 15px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333743;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 11px;
+  border-end-end-radius: 21px;
+}
 .product-item .product-name {
   font-size: 18px;
   font-weight: 500;
