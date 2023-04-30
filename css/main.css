@@ -2241,6 +2241,242 @@ main {
   margin: 0;
 }
 
+.contact-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 991px) {
+  .contact-main {
+    flex-direction: column;
+  }
+}
+
+.contact-img {
+  width: 363px;
+}
+@media (max-width: 991px) {
+  .contact-img {
+    display: none;
+  }
+}
+
+.contact-form {
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .contact-form {
+    width: 100%;
+  }
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.custom-input {
+  width: 100%;
+  max-width: 536px;
+  height: 67px;
+  border: 1px solid #d4d4d4;
+  border-radius: 16px;
+  padding: 0 44px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333743;
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 991px) {
+  .custom-input {
+    max-width: none;
+    padding: 0 20px;
+  }
+}
+.custom-input::-moz-placeholder {
+  font-weight: 300;
+  color: #333743;
+}
+.custom-input::placeholder {
+  font-weight: 300;
+  color: #333743;
+}
+html[dir=rtl] .custom-input::-moz-placeholder {
+  text-align: right;
+}
+html[dir=rtl] .custom-input::placeholder {
+  text-align: right;
+}
+html[dir=ltr] .custom-input::-moz-placeholder {
+  text-align: left;
+}
+html[dir=ltr] .custom-input::placeholder {
+  text-align: left;
+}
+.custom-input:focus {
+  border-color: #85c44b;
+}
+
+textarea.custom-input {
+  padding: 15px 44px;
+  height: 150px;
+  resize: none;
+}
+@media (max-width: 991px) {
+  textarea.custom-input {
+    padding: 15px 20px;
+  }
+}
+
+.submit-btn {
+  width: 100%;
+  max-width: 536px;
+  height: 67px;
+  background-color: #85c44b;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-top: 27px;
+}
+.submit-btn:hover {
+  background-color: #1472ba;
+}
+@media (max-width: 991px) {
+  .submit-btn {
+    max-width: none;
+    padding: 0 20px;
+  }
+}
+
+.hours {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 27px 76px;
+  border-radius: 31px;
+  background-color: rgba(133, 196, 75, 0.06);
+  margin-top: 94px;
+}
+@media (max-width: 991px) {
+  .hours {
+    margin-top: 55px;
+    padding: 25px 20px;
+  }
+}
+.hours .hours-text {
+  -webkit-margin-start: 27px;
+          margin-inline-start: 27px;
+}
+@media (max-width: 991px) {
+  .hours .hours-text {
+    -webkit-margin-start: 17px;
+            margin-inline-start: 17px;
+  }
+}
+.hours strong {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333743;
+  display: block;
+  line-height: 1.22222;
+  margin-bottom: 13px;
+}
+.hours span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #333743;
+  line-height: 1.5;
+}
+
+.locations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 100px;
+}
+@media (max-width: 991px) {
+  .locations {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-top: 60px;
+  }
+}
+
+.location .location-info {
+  display: flex;
+  align-items: center;
+}
+.location .location-icon {
+  width: 69px;
+  height: 64px;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25a4dc;
+  -webkit-margin-end: 23px;
+          margin-inline-end: 23px;
+  position: relative;
+  flex-shrink: 0;
+}
+.location .location-icon:after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+  border-color: #25a4dc transparent transparent transparent;
+}
+.location .location-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333743;
+  display: block;
+  line-height: 1.22222;
+  margin-bottom: 13px;
+}
+.location .location-desc {
+  font-size: 14px;
+  font-weight: 300;
+  color: #333743;
+  line-height: 1.7;
+  margin: 0;
+  height: 48px;
+}
+@media (max-width: 991px) {
+  .location .location-desc {
+    height: auto;
+  }
+}
+
+.location-map {
+  border: 1px solid #ebebeb;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 243px;
+  margin-top: 40px;
+}
+@media (max-width: 991px) {
+  .location-map {
+    margin-top: 20px;
+  }
+}
+.location-map iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 footer {
   background-color: #333743;
   padding: 57px 0;
