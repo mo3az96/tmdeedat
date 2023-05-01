@@ -2762,6 +2762,7 @@ textarea.custom-input {
     height: 60px;
     font-size: 14px;
     padding: 0;
+    border-radius: 10px;
   }
 }
 .custom-tabs .custom-link::after {
@@ -2781,7 +2782,7 @@ textarea.custom-input {
 }
 @media (max-width: 991px) {
   .custom-tabs .custom-link::after {
-    display: none;
+    border-width: 15px 15px 0 15px;
   }
 }
 .custom-tabs .custom-link:hover {
