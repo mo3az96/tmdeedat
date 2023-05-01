@@ -2826,6 +2826,29 @@ textarea.custom-input {
   margin: 0;
 }
 
+.info-content span {
+  display: block;
+  font-size: 14px;
+  color: #333743;
+  font-weight: 300;
+  line-height: 1.7857;
+}
+.info-content p {
+  font-size: 14px;
+  color: #333743;
+  font-weight: 300;
+  line-height: 1.7857;
+  margin: 0 0 29px;
+}
+@media (max-width: 991px) {
+  .info-content p {
+    margin-bottom: 20px;
+  }
+}
+.info-content p:last-of-type {
+  margin: 0;
+}
+
 footer {
   background-color: #333743;
   padding: 57px 0;
