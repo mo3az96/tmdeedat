@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  if ($(window).width() >= 991) {
+    sal({
+      once: true,
+    });
+  }
   /************************************ Mobile Menu ************************************/
   $(".menu-btn").on("click", function (e) {
     $(".header-navbar").fadeToggle(300);
@@ -30,4 +35,32 @@ $(document).ready(function () {
       prevEl: ".main-slider .swiper-btn-prev",
     },
   });
+  /************************************ States Counter ************************************/
+  if ($(".statistics-sec").length > 0) {
+    var a = 0;
+    $(window).scroll(function () {
+      if (
+        a == 0 &&
+        $(this).scrollTop() >= $(".statistics-sec").offset().top - 500
+      ) {
+        $(".statistic-value strong").each(function () {
+          $(this)
+            .prop("Counter", 0)
+            .animate(
+              {
+                Counter: $(this).text(),
+              },
+              {
+                duration: 1000,
+                easing: "swing",
+                step: function (now) {
+                  $(this).text(Math.ceil(now));
+                },
+              }
+            );
+        });
+        a++;
+      }
+    });
+  }
 });

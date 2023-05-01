@@ -147,19 +147,27 @@
     <section class="about-sec">
       <div class="container">
         <div class="about-cont">
-          <h2 class="about-title">
+          <h2 class="about-title" data-sal="slide-up">
             مرحبا بكم في <span>مؤسسة تمديدات تقنية للمقاولات</span> الخاصة بنا
           </h2>
           <div class="about-grid">
             <div class="about-text">
-              <p class="about-desc">
+              <p
+                class="about-desc"
+                data-sal="slide-up"
+                style="--sal-delay: 0.2s"
+              >
                 على مر السنين عملنا في العديد من المشاريع في جميع أنحاء المملكة
                 العربية السعودية وعلى الصعيد الدولي في البحرين ومصر مع التركيبات
                 في الأسواق الطبية والمستشفيات والمختبرات والأسواق الصناعية.
               </p>
               <a href="about.html" class="about-btn"> إعرف أكثر </a>
             </div>
-            <div class="about-video">
+            <div
+              class="about-video"
+              data-sal="zoom-in"
+              style="--sal-delay: 0.2s"
+            >
               <a
                 data-fancybox="about"
                 href="https://www.youtube.com/watch?v=BFS9n4B_2xA"
@@ -186,75 +194,108 @@
     <section class="services-sec">
       <div class="container">
         <div class="services-head">
-          <h3 class="services-head-title">الخدمات</h3>
-          <p class="services-head-desc">
+          <h3 class="services-head-title" data-sal="slide-down">الخدمات</h3>
+          <p
+            class="services-head-desc"
+            data-sal="slide-down"
+            style="--sal-delay: 0.2s"
+          >
             تصميم شبكة الغازات الطبية طبقا لمعيار الغازات الطبية HTM2022 &
             HTM0201. أيضًا وفقًا لمتطلبات CBAHI أيضًا وفقًا لمتطلبات وزارة الصحة
             ، هذا التصميم من قبل مكتبنا الفني الذي قام بالتدريب ولديه HTM
           </p>
         </div>
         <div class="services-grid">
-          <a href="#!" class="service-item">
-            <div class="service-icon">
-              <img src="images/services/01.svg" class="img-fluid" />
-            </div>
-            <h4 class="service-title">معاقبة السلطة</h4>
-            <p class="service-desc">
-              نقوم بتركيب شبكة الغاز الطبي وفقًا لمتطلبات HTM ووفقًا لمتطلبات
-              وزارة الصحة و CBAHI من قبل الفنيين لدينا
-            </p>
-          </a>
-          <a href="#!" class="service-item">
-            <div class="service-icon">
-              <img src="images/services/02.svg" class="img-fluid" />
-            </div>
-            <h4 class="service-title">اختبار الاتصال</h4>
-            <p class="service-desc">
-              لمتطلبات أيضًا وفقًا لمتطلبات وزارة الصحة ، هذا التصميم من قبل
-              مكتبنا الفني الذي تم تدريبه وحاصل على ترخيص HTM
-            </p>
-          </a>
-          <a href="#!" class="service-item">
-            <div class="service-icon">
-              <img src="images/services/03.svg" class="img-fluid" />
-            </div>
-            <h4 class="service-title">اختبار النقاء</h4>
-            <p class="service-desc">
-              عمال اللحام المعتمدين من المكاتب الرسمية مثل الحوتى واشراف مهندسين
-              متخصصين لكل مشروع للتحقق من جودة التركيب ومواصفات المشروع
-            </p>
-          </a>
-          <a href="#!" class="service-item">
-            <div class="service-icon">
-              <img src="images/services/04.svg" class="img-fluid" />
-            </div>
-            <h4 class="service-title">اختبار الرطوبة</h4>
-            <p class="service-desc">
-              الصيانة مهمة أساسية كجزء من دورنا للحفاظ على نظام شبكة الغازات
-              الطبية آمنًا ومناسبًا للغرض ويعمل بكفاءة ، بما يتماشى مع
-              التزاماتنا.
-            </p>
-          </a>
-          <a href="#!" class="service-item">
-            <div class="service-icon">
-              <img src="images/services/05.svg" class="img-fluid" />
-            </div>
-            <h4 class="service-title">اختبار التركيز</h4>
-            <p class="service-desc">
-              توريد شهادة بلد المنشأ. تدريب الممرضات والطاقم الطبي على تشغيل
-              المعدات. تدريب الكادر الهندسي على الصيانة الوقائية والطارئة
-            </p>
-          </a>
-          <a href="#!" class="service-item">
-            <div class="service-icon">
-              <img src="images/services/06.svg" class="img-fluid" />
-            </div>
-            <h4 class="service-title">صمامات كروية خطية بجميع المقاسات</h4>
-            <p class="service-desc">
-              يرجى الاتصال بنا في أقرب وقت ممكن حتى نتمكن من النظر فيما إذا كان
-              بإمكاننا أيضًا إعادة تنظيم أعمالنا لتقليل أي آثار.
-            </p>
-          </a>
+          <div class="grid-item" data-sal="flip-right">
+            <a href="#!" class="service-item">
+              <div class="service-icon">
+                <img src="images/services/01.svg" class="img-fluid" />
+              </div>
+              <h4 class="service-title">معاقبة السلطة</h4>
+              <p class="service-desc">
+                نقوم بتركيب شبكة الغاز الطبي وفقًا لمتطلبات HTM ووفقًا لمتطلبات
+                وزارة الصحة و CBAHI من قبل الفنيين لدينا
+              </p>
+            </a>
+          </div>
+          <div
+            class="grid-item"
+            data-sal="flip-right"
+            style="--sal-delay: 0.2s"
+          >
+            <a href="#!" class="service-item">
+              <div class="service-icon">
+                <img src="images/services/02.svg" class="img-fluid" />
+              </div>
+              <h4 class="service-title">اختبار الاتصال</h4>
+              <p class="service-desc">
+                لمتطلبات أيضًا وفقًا لمتطلبات وزارة الصحة ، هذا التصميم من قبل
+                مكتبنا الفني الذي تم تدريبه وحاصل على ترخيص HTM
+              </p>
+            </a>
+          </div>
+          <div
+            class="grid-item"
+            data-sal="flip-right"
+            style="--sal-delay: 0.4s"
+          >
+            <a href="#!" class="service-item">
+              <div class="service-icon">
+                <img src="images/services/03.svg" class="img-fluid" />
+              </div>
+              <h4 class="service-title">اختبار النقاء</h4>
+              <p class="service-desc">
+                عمال اللحام المعتمدين من المكاتب الرسمية مثل الحوتى واشراف
+                مهندسين متخصصين لكل مشروع للتحقق من جودة التركيب ومواصفات
+                المشروع
+              </p>
+            </a>
+          </div>
+          <div
+            class="grid-item"
+            data-sal="flip-right"
+            style="--sal-delay: 0.6s"
+          >
+            <a href="#!" class="service-item">
+              <div class="service-icon">
+                <img src="images/services/04.svg" class="img-fluid" />
+              </div>
+              <h4 class="service-title">اختبار الرطوبة</h4>
+              <p class="service-desc">
+                الصيانة مهمة أساسية كجزء من دورنا للحفاظ على نظام شبكة الغازات
+                الطبية آمنًا ومناسبًا للغرض ويعمل بكفاءة ، بما يتماشى مع
+                التزاماتنا.
+              </p>
+            </a>
+          </div>
+          <div
+            class="grid-item"
+            data-sal="flip-right"
+            style="--sal-delay: 0.8s"
+          >
+            <a href="#!" class="service-item">
+              <div class="service-icon">
+                <img src="images/services/05.svg" class="img-fluid" />
+              </div>
+              <h4 class="service-title">اختبار التركيز</h4>
+              <p class="service-desc">
+                توريد شهادة بلد المنشأ. تدريب الممرضات والطاقم الطبي على تشغيل
+                المعدات. تدريب الكادر الهندسي على الصيانة الوقائية والطارئة
+              </p>
+            </a>
+          </div>
+          <div class="grid-item" data-sal="flip-right" style="--sal-delay: 1s">
+            <a href="#!" class="service-item">
+              <div class="service-icon">
+                <img src="images/services/06.svg" class="img-fluid" />
+              </div>
+              <h4 class="service-title">صمامات كروية خطية بجميع المقاسات</h4>
+              <p class="service-desc">
+                يرجى الاتصال بنا في أقرب وقت ممكن حتى نتمكن من النظر فيما إذا
+                كان بإمكاننا أيضًا إعادة تنظيم أعمالنا لتقليل أي آثار.
+              </p>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -267,8 +308,12 @@
           <div class="pattern">
             <img src="images/icons/statistics.svg" />
           </div>
-          <h3 class="statistics-title">قيمنا الأساسية</h3>
-          <p class="statistics-desc">
+          <h3 class="statistics-title" data-sal="slide-down">قيمنا الأساسية</h3>
+          <p
+            class="statistics-desc"
+            data-sal="slide-down"
+            style="--sal-delay: 0.2s"
+          >
             شركة الخدمات الكهربائية مؤهلة بشكل فريد لتلبية الاحتياجات الكهربائية
             للشركات التجارية والصناعية. نحن نتفهم أن توفير الحلول الكهربائية
             بطريقة آمنة ومهنية وفي الوقت المناسب أمر ضروري.
@@ -324,7 +369,7 @@
     <section class="contacts-sec">
       <div class="container">
         <div class="contacts-cont">
-          <div class="contact-method">
+          <div class="contact-method" data-sal="slide-down">
             <div class="contact-icon">
               <img src="images/contacts/email.svg" />
             </div>
@@ -336,7 +381,11 @@
               H_item@hotmail.com
             </a>
           </div>
-          <div class="contact-method">
+          <div
+            class="contact-method"
+            data-sal="slide-down"
+            style="--sal-delay: 0.2s"
+          >
             <div class="contact-icon">
               <img src="images/contacts/phone.svg" />
             </div>
@@ -346,7 +395,11 @@
               00966541254464
             </a>
           </div>
-          <div class="contact-method">
+          <div
+            class="contact-method"
+            data-sal="slide-down"
+            style="--sal-delay: 0.4s"
+          >
             <div class="contact-icon">
               <img src="images/contacts/location.svg" />
             </div>
@@ -356,7 +409,11 @@
               مكتب 603 تليفون رقم 0126300002
             </span>
           </div>
-          <div class="contact-method">
+          <div
+            class="contact-method"
+            data-sal="slide-down"
+            style="--sal-delay: 0.6s"
+          >
             <div class="contact-icon">
               <img src="images/contacts/location.svg" />
             </div>
@@ -382,7 +439,7 @@
         <div class="footer">
           <div class="row">
             <div class="col-lg-6">
-              <div class="footer-about">
+              <div class="footer-about" data-sal="slide-up">
                 <div class="footer-logo">
                   <img src="images/logo.png" class="img-fluid" />
                 </div>
@@ -394,7 +451,11 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="footer-list-cont">
+              <div
+                class="footer-list-cont"
+                data-sal="slide-up"
+                style="--sal-delay: 0.2s"
+              >
                 <h5 class="footer-title">روابط سريعة</h5>
                 <ul class="footer-links list-unstyled">
                   <li>
@@ -416,7 +477,11 @@
               </div>
             </div>
             <div class="col-lg-3 col-md-6">
-              <div class="footer-socials">
+              <div
+                class="footer-socials"
+                data-sal="slide-up"
+                style="--sal-delay: 0.4s"
+              >
                 <h5 class="footer-title">روابط سريعة</h5>
                 <div class="socials">
                   <a href="#!" target="_blank">
