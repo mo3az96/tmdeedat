@@ -3,6 +3,10 @@ $(document).ready(function () {
     sal({
       once: true,
     });
+  } else {
+    sal({
+      disabled: true,
+    });
   }
   /************************************ Mobile Menu ************************************/
   $(".menu-btn").on("click", function (e) {
