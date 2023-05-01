@@ -2553,23 +2553,23 @@ textarea.custom-input {
   opacity: 1;
 }
 
-.clientes-grid {
+.clients-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px 16px;
 }
 @media (max-width: 1199px) {
-  .clientes-grid {
+  .clients-grid {
     gap: 15px 10px;
   }
 }
 @media (max-width: 991px) {
-  .clientes-grid {
+  .clients-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media (max-width: 767px) {
-  .clientes-grid {
+  .clients-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -2597,6 +2597,7 @@ textarea.custom-input {
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 20px;
+  background-color: #fff;
 }
 .client-item .client-link:hover {
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
